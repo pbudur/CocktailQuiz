@@ -11,7 +11,7 @@
     <string name="submit_results">Trimite raspunsul</string>
     <string name="send_email">Trimite Email</string>
     <string name="result_answers">Nr de raspunsuri corecte: <xliff:g example="5" id="nbCorrect">%d</xliff:g> din <xliff:g example="6" id="nbQuestions">%d</xliff:g>!</string>
-    <string name="result_tester">Rezultatul testului:</string>
+    <string name="result_tester">Rezultatul testului pentru:</string>
     <string name="name_tester">Nume: <xliff:g example="John" id="name">%s</xliff:g></string>
     <string name="age_tester">Varsta: <xliff:g example="39" id="age">%d</xliff:g></string>
     <string name="min_conditions">Trebuie sa introduci un nume si varsta trebuie sa fie intre 18 si 100 de ani!</string>
@@ -20,17 +20,17 @@
     <string name="summary_email_subject">Rezultatele testului Coktail QUIZ  pentru <xliff:g example="Amy" id="name">%s</xliff:g></string>
 
     <string-array name="questions">
-        <item>QUESTION 1:\nIn care dintre tarile de mai jos populatia musulmana depaseste 100 milioane? (selecteaza toate care corespund)</item>
-        <item>QUESTION 2:\nLimba romana face parte din aceeasi familie cu:</item>
-        <item>QUESTION 3:\nIn ce tara s-a nascut celebrul fizician Albert Einstein?</item>
-        <item>QUESTION 4:\nCare oras este considerat capitala graffiti-ului din Europa?</item>
-        <item>QUESTION 5:\nCare este rezultatul R al ecuatiei de mai jos?
+        <item>INTREBAREA 1:\nIn care dintre tarile de mai jos populatia musulmana depaseste 100 milioane? (selecteaza toate care corespund)</item>
+        <item>INTREBAREA 2:\nLimba romana face parte din aceeasi familie cu:</item>
+        <item>INTREBAREA 3:\nIn ce tara s-a nascut celebrul fizician Albert Einstein?</item>
+        <item>INTREBAREA 4:\nCare oras este considerat capitala graffiti-ului din Europa?</item>
+        <item>INTREBAREA 5:\nCare este rezultatul R al ecuatiei de mai jos?
             \n\t\tR = (0!+0!+0!)!</item>
-        <item>QUESTION 6:\nSa presupunem ca tu conduci un autobuz cu 25 de pasageri.
-            \n- La prima statie au coborat 4 si au urcat 7.
-            \n- La a doua statie au coborat 8 si au urcat 11.
-            \n- La a treia statie au coborat 5 si a urcat 1.
-            \n- La a 4a statie au coborat 2 si au urcat 3.
+        <item>INTREBAREA 6:\nSa presupunem ca tu conduci un autobuz cu 25 de pasageri.
+            \n-La 1a statie au coborat 4 si au urcat 7.
+            \n-La a 2a statie au coborat 8 si au urcat 11.
+            \n-La a 3a statie au coborat 5 si a urcat 1.
+            \n-La a 4a statie au coborat 2 si au urcat 3.
             \nCe varsta are soferul?
         </item>
     </string-array>
