@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/c2"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:id="@+id/question_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/question_login"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+            android:hint="@string/name"
+            android:inputType="textCapWords"
+            android:singleLine="true"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="@string/age"
+            android:inputType="number"
+            android:singleLine="true"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:onClick="startQuiz"
+            android:text="@string/start_quiz"
+            android:layout_gravity="center_horizontal"
+            android:visibility="visible" />
+
+
+        <CheckBox
+            android:id="@+id/cb_answer_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <CheckBox
+            android:id="@+id/cb_answer_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <CheckBox
+            android:id="@+id/cb_answer_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <CheckBox
+            android:id="@+id/cb_answer_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <CheckBox
+            android:id="@+id/cb_answer_e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <RadioGroup
+            android:id="@+id/rb_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rb_answer_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+            <RadioButton
+                android:id="@+id/rb_answer_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+            <RadioButton
+                android:id="@+id/rb_answer_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+            <RadioButton
+                android:id="@+id/rb_answer_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+            <RadioButton
+                android:id="@+id/rb_answer_e"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:textSize="16sp"
+                android:visibility="gone" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/b_answer_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="answerButtonA"
+            android:textAlignment="center"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/button_pressed"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/b_answer_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="answerButtonB"
+            android:textAlignment="center"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/button_pressed"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/b_answer_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="answerButtonC"
+            android:textAlignment="center"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/button_pressed"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/b_answer_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="answerButtonD"
+            android:textAlignment="center"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/button_pressed"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/b_answer_e"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="answerButtonE"
+            android:textAlignment="center"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/button_pressed"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/send_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="sendEmail"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="@string/send_email"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/submit_results"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="submitResults"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="@string/submit_results"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/restart_quiz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="startQuiz"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="@string/restart_quiz"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

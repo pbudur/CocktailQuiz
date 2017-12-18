@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Cocktail Quiz</string>
+    <string name="name">Nume</string>
+    <string name="age">Varsta (minim 18 ani)</string>
+    <string name="question_login">Introdu numele tau si varsta ta:</string>
+    <string name="start_quiz">Start</string>
+    <string name="restart_quiz">Restart QUIZ</string>
+    <string name="select_one">Trebuie sa selectezi un raspuns!</string>
+    <string name="thank_you">Multumim!</string>
+    <string name="submit_results">Trimite raspunsul</string>
+    <string name="send_email">Trimite Email</string>
+    <string name="result_answers">Nr de raspunsuri corecte: <xliff:g example="5" id="nbCorrect">%d</xliff:g> din <xliff:g example="6" id="nbQuestions">%d</xliff:g>!</string>
+    <string name="result_tester">Rezultatul testului:</string>
+    <string name="name_tester">Nume: <xliff:g example="John" id="name">%s</xliff:g></string>
+    <string name="age_tester">Varsta: <xliff:g example="39" id="age">%d</xliff:g></string>
+    <string name="min_conditions">Trebuie sa introduci un nume si varsta trebuie sa fie intre 18 si 100 de ani!</string>
+    <string name="wrong_answer">Raspunsul la Intrebarea <xliff:g example="3" id="question_nb">%d</xliff:g> a fost gresit!</string>
+    <string name="correct_answer">Raspunsul la Intrebarea <xliff:g example="3" id="question_nb">%d</xliff:g> a fost corect.</string>
+    <string name="summary_email_subject">Rezultatele testului Coktail QUIZ  pentru <xliff:g example="Amy" id="name">%s</xliff:g></string>
+
+    <string-array name="questions">
+        <item>QUESTION 1:\nIn care dintre tarile de mai jos populatia musulmana depaseste 100 milioane? (selecteaza toate care corespund)</item>
+        <item>QUESTION 2:\nLimba romana face parte din aceeasi familie cu:</item>
+        <item>QUESTION 3:\nIn ce tara s-a nascut celebrul fizician Albert Einstein?</item>
+        <item>QUESTION 4:\nCare oras este considerat capitala graffiti-ului din Europa?</item>
+        <item>QUESTION 5:\nCare este rezultatul R al ecuatiei de mai jos?
+            \n\t\tR = (0!+0!+0!)!</item>
+        <item>QUESTION 6:\nSa presupunem ca tu conduci un autobuz cu 25 de pasageri.
+            \n- La prima statie au coborat 4 si au urcat 7.
+            \n- La a doua statie au coborat 8 si au urcat 11.
+            \n- La a treia statie au coborat 5 si a urcat 1.
+            \n- La a 4a statie au coborat 2 si au urcat 3.
+            \nCe varsta are soferul?
+        </item>
+    </string-array>
+
+    <string-array name="answer1">
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>Indonezia</item>
+        <item>Nigeria</item>
+        <item>Pakistan</item>
+    </string-array>
+
+    <string-array name="answer2">
+        <item>Bulgara si Sarba</item>
+        <item>Germana si Olandeza</item>
+        <item>Maghiara si Finlandeza</item>
+        <item>Portugheza si Spaniola</item>
+        <item>Ceha si Poloneza</item>
+    </string-array>
+
+    <string-array name="answer3">
+        <item>Austria</item>
+        <item>Germania</item>
+        <item>Liechtenstein</item>
+        <item>Luxemburg</item>
+        <item>Elvetia</item>
+    </string-array>
+
+    <string-array name="answer4">
+        <item>Belgrad</item>
+        <item>Berlin</item>
+        <item>Bratislava</item>
+        <item>Bucuresti</item>
+        <item>Budapesta</item>
+    </string-array>
+
+</resources>

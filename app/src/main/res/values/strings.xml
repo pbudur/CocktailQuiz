@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title for the application. [CHAR LIMIT=13] -->
+    <string name="app_name">Cocktail Quiz</string>
+
+    <!-- Hint text displayed in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="name">Name</string>
+
+    <!-- Hint text displayed in the empty field for the user's age [CHAR LIMIT=3] -->
+    <string name="age">Age (you must be at least 18)</string>
+
+    <!-- Login text displayed above the empty fields for the user's name and age [CHAR LIMIT=20] -->
+    <string name="question_login">Enter your name and your age:</string>
+
+    <string name="start_quiz">Start Quiz</string>
+    <string name="submit_results">Submit Answer</string>
+
+    <string name="result_tester">HERE ARE THE QUIZ RESULTS FOR:\n</string>
+    <string name="result_answers">CORRECT ANSWERS: <xliff:g example="5" id="nbCorrect">%d</xliff:g> out of <xliff:g example="6" id="nbQuestions">%d</xliff:g>!</string>
+    <string name="name_tester">Name: <xliff:g example="John" id="name">%s</xliff:g></string>
+    <string name="age_tester">Age: <xliff:g example="39" id="age">%d</xliff:g></string>
+    <string name="send_email">Send Email</string>
+    <string name="select_one">You must select one answer!</string>
+    <string name="restart_quiz">Restart QUIZ</string>
+
+    <!-- "The answer to Question 2 was correct", where 2 is the number of the question. [CHAR LIMIT=NONE] -->
+    <string name="correct_answer">The answer to Question <xliff:g example="3" id="question_nb">%d</xliff:g> was correct.</string>
+
+    <!-- "The answer to Question X was wrong", where X is the number of the question. [CHAR LIMIT=NONE] -->
+    <string name="wrong_answer">The answer to Question <xliff:g example="3" id="question_nb">%d</xliff:g> was wrong!"</string>
+    <string name="min_conditions">You must enter a name and your age must be between 18 and 100!</string>
+
+    <!--
+     Subject line for the order summary email. It will be in the format of
+     "Cocktail Quiz results for for Amy" where Amy is the user's name. [CHAR LIMIT=NONE]
+   -->
+    <string name="summary_email_subject">Cocktail Quiz results for <xliff:g example="Amy" id="name">%s</xliff:g></string>
+
+    <!--Here starts the string array zone:-->
+    <string-array name="questions">
+        <item>QUESTION 1:\nIn which countries the muslim population is over 100 millions? (select all that apply)</item>
+        <item>QUESTION 2:\nRomanian language belongs to the same language family as:</item>
+        <item>QUESTION 3:\nIn which country was born the famous physicist Albert Einstein?</item>
+        <item>QUESTION 4:\nWhich city is considered the graffiti capital of Europe?</item>
+        <item>QUESTION 5:\nWhat is the result R of the below mathematical equation?
+            \n\t\tR = (0!+0!+0!)!</item>
+        <item>QUESTION 6:\nSuppose you drive a bus with 25 passengers.
+            \n- At 1st stop 4 get off and 7 get on.
+            \n- At 2nd stop 8 get off and 11 get on.
+            \n- At 3rd stop 5 get off and 1 gets on.
+            \n- At 4th stop 2 get off and 3 get on.
+            \nHow old is the driver?
+        </item>
+    </string-array>
+
+    <string-array name="answer1">
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Nigeria</item>
+        <item>Pakistan</item>
+    </string-array>
+
+    <string-array name="answer2">
+        <item>Bulgarian and Serbian</item>
+        <item>German and Dutch</item>
+        <item>Hungarian and Finnish</item>
+        <item>Portuguese and Spanish</item>
+        <item>Tcheck and Polish </item>
+    </string-array>
+
+    <string-array name="answer3">
+        <item>Austria</item>
+        <item>Germany</item>
+        <item>Liechtenstein</item>
+        <item>Luxembourg</item>
+        <item>Switzerland </item>
+    </string-array>
+
+    <string-array name="answer4">
+        <item>Belgrade</item>
+        <item>Berlin</item>
+        <item>Bratislava</item>
+        <item>Bucharest</item>
+        <item>Budapest</item>
+    </string-array>
+
+    <string-array name="answer5">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>6</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="answer6">
+        <item>19</item>
+        <item>28</item>
+        <item>35</item>
+        <item>43</item>
+        <item>52</item>
+    </string-array>
+
+</resources>
